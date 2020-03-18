@@ -9,6 +9,8 @@ verify_ssl = true
 gym = "*"
 pybullet = "*"
 stable-baselines = {extras = ["mpi"],version = "*"}
+tensorflow = "<2.0"
+baselines = "*"
 
 [requires]
 python_version = "3.6"
