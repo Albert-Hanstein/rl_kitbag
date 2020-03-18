@@ -7,6 +7,8 @@ verify_ssl = true
 
 [packages]
 gym = "*"
+pybullet = "*"
+stable-baselines = {extras = ["mpi"],version = "*"}
 
 [requires]
 python_version = "3.6"
